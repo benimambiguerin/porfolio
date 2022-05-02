@@ -1,115 +1,509 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8" />
-		<title>Mambi-Guérin Béni Portfolio</title>
-		<link rel="stylesheet" href="portfoliostyle.css" />
-		<link rel="stylesheet" href="/fontawesome/css/all.css" />
-		<link rel="stylesheet" href="/fontawesome/css/all.min.css" />
-		<script src="https://kit.fontawesome.com/6a863d3aaa.js" crossorigin="anonymous"></script>
-	</head>
-	
-	<body>
-		<!--menu-->
-		<header>
-				<div id="tete_de_page">
-					<div class="logo">
-						<a href="portofolio.html"></a>
-					</div>
-					<nav>
-						<ul>
-							<li><a href="#parcours">Parcours</a></li>
-							<li><a href="#competences">Compétences</a></li>
-							<li><a href="#projets">Projets réalisés</a></li>
-							<li><a href="#veille">Veille</a></li>
-							<li><a href="#contact">Contact</a></li>
-						</ul>
-					</nav>
-				</div>
-		</header>
-		
-			<div class="beni">
-				<p><span class="bjr">Bonjour, je suis<br /></span>
-				<span class="nom">Béni<br />Mambi-Guérin<br /></span>
-				<span class="fonction">Développeur Web Fullstack</span></p>
+
+<head>
+	<meta charset="utf-8" />
+	<!-- Add the slick-theme.css if you want default styling -->
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+	<!-- Add the slick-theme.css if you want default styling -->
+	<link rel="stylesheet" type="text/css"
+		href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+	<link rel="stylesheet" href="style.css">
+	<title>Mambi-Guérin Béni Portfolio</title>
+	<link rel="stylesheet" href="portfoliostyle.css" />
+	<link rel="stylesheet" href="/fontawesome/css/all.css" />
+	<link rel="stylesheet" href="/fontawesome/css/all.min.css" />
+	<script src="https://kit.fontawesome.com/6a863d3aaa.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+</head>
+
+<body>
+	<!--menu-->
+	<header>
+		<div id="tete_de_page">
+			<div class="logo">
+				<a href="portofolio.html"></a>
 			</div>
-		
-		<!--parcours-->
-		<a name="parcours"></a>
-		<div class="parcours">
-			<div class="a_propos">
-				<div class="un"><h3>À propos de moi</h3>
-				<p>Béni, actuellement en deuxième année d'un BTS SIO option SLAM, je prépare mon diplôme de fin d'étude. Sur mon portfolio vous pourrez trouver mon parcours scolaires mais également professionnel, ainsi que mes projets réalisées en formation et en organisation.</p></div>
-				<div class="deux"><h3>Projet professionnel</h3>
-				<p>Continuer au CFA INGETIS Paris pour poursuivre mes études sur un Titre professionnel d'Expert en Systèmes Informatiques et ainsi m'orienter vers le DevOps !</p></div>
-			</div>
-			<div class="scolaire">
-				<h3 style="text-align: center;">Parcours Scolaire</h3>
-				<ul class="cursus">
-								<div><li>2017 • LYCÉE GUSTAVE EIFFEL - ERMONT<div><i class="fa-solid fa-graduation-cap"></i></div>Obtention du BAC PRO Électrotechnique</li></div>
-								<div><li>2017-18 CFA ISIFA • Issy-les-Moulineaux<div><i class="fa-solid fa-briefcase"></i></div>BTS Technico-Commercial</li></div>
-								<div><li>2020-22 • CFA INGETIS PARIS<div><i class="fa-solid fa-laptop"></i></div>BTS Service Informatique aux Organisations (SIO) option Solutions logicielles et applications métiers (SLAM)</li></div>
-								<div><li>OBJECTIF : Expert SI<div><i class="fa-solid fa-laptop"></i></div>Titre professionnel d'Expert en Systèmes Informatiques</li></div>
+			<nav>
+				<ul>
+					<li><a href="#parcours">Parcours</a></li>
+					<li><a href="#competences">Compétences</a></li>
+					<li><a href="#projets">Projets réalisés</a></li>
+					<li><a href="#veille">Veille</a></li>
+					<li><a href="#contact">Contact</a></li>
 				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<div class="beni">
+		<p><span class="bjr">Bonjour, je suis<br /></span>
+			<span class="nom">Béni<br />Mambi-Guérin<br /></span>
+			<span class="fonction">Développeur Web Fullstack</span>
+		</p>
+	</div>
+
+	<!--parcours-->
+	<a name="parcours"></a>
+	<div class="parcours">
+		<div class="a_propos">
+			<div class="un">
+				<h3>À propos de moi</h3>
+				<p>Béni, actuellement en deuxième année d'un BTS SIO option SLAM, je prépare mon diplôme de fin d'étude.
+					Sur mon portfolio vous pourrez trouver mon parcours scolaires mais également professionnel, ainsi
+					que mes projets réalisées en formation et en organisation.</p>
+			</div>
+			<div class="deux">
+				<h3>Projet professionnel</h3>
+				<p>Continuer au CFA INGETIS Paris pour poursuivre mes études sur un Titre professionnel d'Expert en
+					Systèmes Informatiques et ainsi m'orienter vers le DevOps !</p>
 			</div>
 		</div>
-		
-		<!--compétences-->
-		<a name="competences"></a>
-		<div class="competences">
-			<div class="frontend">
-				<h1><span>FR</span>ONT END</h1>
-					<ul>
-						<li class="html"></li>
-						<li class="css"></li>
-						<li class="javascript"></li>
-						<li class="dart"></li>
-						<li class="flutter"></li>
-					</ul>
-			</div>
-			<div class="backend">
-				<h1><span>BA</span>CK END</h1>
-					<ul>
-						<li class="php"></li>
-						<li class="mysql"></li>
-						<li class="firebase"></li>
-					</ul>
+		<div class="scolaire">
+			<h3 style="text-align: center;">Parcours Scolaire</h3>
+			<ul class="cursus">
+				<div>
+					<li>2017 • LYCÉE GUSTAVE EIFFEL - ERMONT<div><i class="fa-solid fa-graduation-cap"></i></div>
+						Obtention du BAC PRO Électrotechnique</li>
+				</div>
+				<div>
+					<li>2017-18 CFA ISIFA • Issy-les-Moulineaux<div><i class="fa-solid fa-briefcase"></i></div>BTS
+						Technico-Commercial</li>
+				</div>
+				<div>
+					<li>2020-22 • CFA INGETIS PARIS<div><i class="fa-solid fa-laptop"></i></div>BTS Service Informatique
+						aux Organisations (SIO) option Solutions logicielles et applications métiers (SLAM)</li>
+				</div>
+				<div>
+					<li>OBJECTIF : Expert SI<div><i class="fa-solid fa-laptop"></i></div>Titre professionnel d'Expert en
+						Systèmes Informatiques</li>
+				</div>
+			</ul>
+		</div>
+	</div>
+
+	<!--compétences-->
+	<a name="competences"></a>
+	<div class="competences">
+		<div class="frontend">
+			<h1><span>FR</span>ONT END</h1>
+			<ul>
+				<li class="html"></li>
+				<li class="css"></li>
+				<li class="javascript"></li>
+				<li class="dart"></li>
+				<li class="flutter"></li>
+			</ul>
+		</div>
+		<div class="backend">
+			<h1><span>BA</span>CK END</h1>
+			<ul>
+				<li class="php"></li>
+				<li class="mysql"></li>
+				<li class="firebase"></li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- projets réalisées -->
+	<a name="projets"></a>
+	<h1 style="text-align: center; margin-top: 60px;"><span>PRO</span>JETS RÉALISÉS</h1>
+	<div class="slider">
+		<div class="img-div div1">
+			<div class="item">
+				<div class="item_image1"><img src="images/citruslogo.png" alt="">
+				</div>
+				<div class="item_body">
+					<div class="item_formation">Réalisé en formation</div>
+					<div class="item_title"><a href="pdf/Cahier des charges - Citrus.pdf">Projet Citrus</a></div>
+					<div class="item_description">
+						Mise en place d'une application web permettant un compte utilisateur (ou réparateur) afin de
+						pouvoir consulter les créneaux proposant des prestations des réparations de vélo.
+						<br><br><br>Codé en HTML | CSS | PHP | MySQL
+					</div>
+				</div>
 			</div>
 		</div>
-		
-		<!--contact-->
-		<a name="contact"></a>
-		<div class="contact">
+		<div class="img-div div2">
+			<div class="item">
+				<div class="item_image2">
+					<img src="images/homerepairlogo.png" alt="">
+				</div>
+				<div class="item_body">
+					<div class="item_formation">Réalisé en formation</div>
+					<div class="item_title"><a href="pdf/Cahier des charges - Homerepair.pdf">Projet Homerepair</a>
+					</div>
+					<div class="item_description">
+						Mise en place d'une application mobile permettant un compte utilisateur (ou réparateur) afin de
+						pouvoir consulter les créneaux proposant des prestations des réparations de vélo.
+						<br><br><br>Codé en Dart | Flutter | Firebase
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="img-div div3">
+			<div class="item">
+				<div class="item_image3">
+					<img src="images/portfolio.png" alt="">
+				</div>
+				<div class="item_body">
+					<div class="item_formation">Réalisé en formation</div>
+					<div class="item_title">Portfolio</div>
+					<div class="item_description">
+						Codé en HTML | CSS | Javascript | jQuery
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="img-div div4">
+			<div class="item">
+				<div class="item_image4">
+					<img src="images/dlm.png" alt="">
+				</div>
+				<div class="item_body">
+					<div class="item_formation">Réalisé en entreprise</div>
+					<div class="item_title"><a href="https://www.dlm-sas.fr" target="blank">Projet Camion Souffleur</a>
+					</div>
+					<div class="item_description">
+						Mise en place et analyse d'un site permettant de faire l'achat de camion souffleur. <br><br>
+						Codé en HTML | CSS | Liquid (Shopify)
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="img-div div5">
+			<div class="item">
+				<div class="item_image5">
+					<img src="images/definov.png" alt="">
+				</div>
+				<div class="item_body">
+					<div class="item_formation">Réalisé en entreprise</div>
+					<div class="item_title"><a href="https://definov-formation.fr" target="blank">Projet Def'Inov
+							Formation</a></div>
+					<div class="item_description">
+						Mise en place et analyse d'un site permettant de faire l'achat de plusieurs formations. <br><br>
+						Codé en HTML | CSS | Liquid (Shopify)
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.0.0.js"></script>
+	<script src="https://code.jquery.com/jquery-migrate-3.3.2.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<script src="script.js"></script>
+
+
+	<!-- Veille -->
+	<a name="veille"></a>
+	<h1 style="text-align: center; margin-top: 70px;"><span>VEI</span>LLE TECHNOLOGIQUE</h1>
+	<div id="container">
+		<div id="container">
+			<div class="card">
+				<div class="card_image">
+					<img src="images/veille.png" alt="">
+				</div>
+				<div class="card_body">
+					<div class="card_description">
+						La veille technologique, élément de la veille stratégique, consiste à surveiller les évolutions
+						techniques, les innovations dans un secteur d’activité donnée. La veille technologique comprend
+						notamment la surveillance, la collecte, le partage et la diffusion d’information permettant
+						d’anticiper ou de s’informer sur des changements en matière de recherche, développement, brevet,
+						lancement de nouveaux produits, matériaux, processus, concepts, innovation de fabrication, etc….
+						Cela a pour but d’évaluer l’impact sur l’environnement et l’organisation.
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card_image">
+					<img src="images/web3.jpeg" alt="">
+				</div>
+				<div class="card_body">
+					<div class="card_description">
+						Ma veille technologique portera sur le web3. Je vais donc essayer, dans cette veille,
+						d'expliquer en
+						quoi consiste le Web3 en 4 questions Pour cela j'ai utilisé plusieurs sites pour m'informer.
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card_image">
+					<img src="images/nft.jpeg" alt="">
+				</div>
+				<div class="card_body">
+					<div class="card_title">
+						Qu'est-ce que le Web3 ?
+					</div>
+					<div class="card_description">
+						En résumé, le Web3 renvoie à l’idée d’un Internet décentralisé et plus libre, indépendant des
+						Etats
+						comme des géants du numérique, tels que Google et Facebook. On attribue le plus souvent
+						l’origine de
+						l’expression à un post écrit en 2014 par Gavin Wood, le cofondateur de la blockchain Ethereum
+						qui,
+						cette année-là, tentait d’imaginer un Internet « post-Snowden ». Une référence au lanceur
+						d’alerte
+						Edward Snowden, à l’origine en 2013 de la fuite de données la plus importante de l’histoire de
+						la
+						National Security Agency (NSA), les services de renseignement américains.
+						Le Web3, comme son nom le suggère, serait un troisième moment dans l’évolution des usages sur
+						Internet. Si l’on se réfère à la définition de ces étapes par Chris Dixon, associé à la société
+						de
+						capital-risque Andreessen Horowitz et fervent défenseur du concept, la première est le Web 1.0
+						qui,
+						du début des années 1990 environ, jusqu’au milieu des années 2000, renvoie aux balbutiements du
+						réseau, avec ses pages rudimentaires permettant surtout de consulter de l’information. On
+						trouvait
+						en toile de fond de l’époque un mythe rappelant celui de la conquête de l’Ouest : Internet était
+						alors vu comme une « nouvelle frontière », un espace sans grande régulation, n’appartenant à
+						personne et où tout était possible.
+						Puis est venu le Web 2.0, du milieu des années 2000 au début des années 2020 : c’est l’Internet
+						de
+						la circulation des contenus, des blogs, des fils RSS, des réseaux sociaux et de l’interactivité.
+						Un
+						réseau à l’usage démocratisé, plus accessible, et qui a vu s’imposer de grandes plates-formes
+						centralisatrices comme le moteur de recherche de Google – plus de 90 % des requêtes effectuées
+						sur
+						Internet dans le monde – ou Facebook et ses près de 3 milliards d’utilisateurs actifs.
+						Le Web3 succéderait ainsi à ces deux premières phases, tout en prétendant en faire une sorte de
+						synthèse : rendre à l’internaute son indépendance et l’excitation du Web des débuts, tout en
+						gardant
+						les innovations et le confort d’utilisation issus du Web 2.0.
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card_image">
+					<img src="images/image2.jpeg" alt="">
+				</div>
+				<div class="card_body">
+					<div class="card_title">
+						Comment se manifeste-t-il concrètement ?
+					</div>
+					<div class="card_description">
+						Le concept est étroitement lié à la technologie de la chaîne de blocs, la « blockchain », un
+						système
+						de certification décentralisé. Il faut s’imaginer un grand registre, dont les pages – les «
+						blocs »
+						– servent à consigner toutes les transactions effectuées entre les utilisateurs. Pour chaque
+						transaction, une nouvelle ligne s’ajoute aux précédentes, le registre comprenant donc
+						l’historique
+						complet de tous les échanges et formant ainsi une « chaîne ».
+						Il n’y a pas d’individu ou d’organisation unique chargé de la validation des interactions :
+						toute
+						modification de la blockchain doit être collectivement validée par les calculs des ordinateurs
+						qui
+						composent le réseau. Ce n’est donc pas la confiance accordée à un quelconque organe central qui
+						fait
+						la validité et la solidité théoriques d’une blockchain, mais, au contraire, l’absence totale de
+						confiance en quiconque, tout le monde vérifiant tout.
+						L’une des blockchains les plus célèbres est celle du bitcoin. Née en 2008, cette cryptomonnaie a
+						été
+						conçue en réaction à la crise financière qui explosait cette année-là, avec comme volonté de
+						s’affranchir du monopole des Etats sur la monnaie et de l’emprise des places financières.
+						Depuis, de nombreuses autres blockchains ont été créées, comme Solana, Hyperledger ou Tezos, sur
+						lesquelles s’appuient le plus souvent les projets relatifs au Web3 : des collections d’images
+						sous
+						forme de « non-fungible tokens » (NFT, ou « jetons non fongibles » en français, comme les
+						CryptoPunks ou le Bored Ape Yacht Club), des entreprises alliant NFT et compétitions sportives,
+						comme Sorare ou NBATopShot, un projet de réseau social décentralisé ayant pour objectif de
+						rémunérer
+						chaque internaute pour tout ce qu’il fait en ligne, ou encore une start-up cherchant à permettre
+						aux
+						utilisateurs de parier sur l’issue de procédures judiciaires…
+						L’idée centrale de toutes ces initiatives fondées sur une blockchain reste la même : ne pas
+						faire
+						confiance à un organe central, mais plutôt au réseau de certification, anonyme et décentralisé.
+						En
+						résumé, tout projet ayant trait de près ou de loin à une blockchain peut donc aujourd’hui se
+						retrouver estampillé « Web3 ».
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card_image">
+					<img src="images/image3.png" alt="">
+				</div>
+				<div class="card_body">
+					<div class="card_title">
+						Pourquoi en parle-t-on autant aujourd’hui ?
+					</div>
+					<div class="card_description">
+						Il y a d’abord la popularisation progressive de la technologie de la blockchain, qui rend
+						aujourd’hui techniquement possible, selon les acteurs de l’industrie, un tel retour du pouvoir
+						de
+						décision dans les mains des internautes.
+						Mais il y a aussi un changement d’état d’esprit. Surveillance de la NSA, scandale Cambridge
+						Analytica, Facebook Files, explosion des rançongiciels… Au fil des révélations, la confiance des
+						internautes dans les plates-formes qu’ils utilisent au quotidien s’est érodée. Même chez les
+						principaux artisans de l’Internet tel qu’on le connaît aujourd’hui, une forme de regret se fait
+						sentir. Le fondateur de Twitter, Jack Dorsey, s’excusait ainsi publiquement, le 2 avril, disant
+						se
+						considérer comme « en partie responsable » du fait d’avoir « abîmé Internet ».
+						Mais tout cela ne serait rien sans un ingrédient essentiel : la peur panique pour certains de
+						passer
+						à côté de la nouvelle révolution. Comme le raconte The Atlantic, les défenseurs du Web3 ont
+						remis au
+						goût du jour un face-à-face télévisuel de 1995 pour appuyer leur position : cette année-là, sur
+						le
+						plateau du « Late Show », le jeune Bill Gates tente d’expliquer à David Letterman en quoi
+						consiste
+						Internet. L’incompréhension assumée du présentateur vedette, à la limite de la condescendance,
+						déclenche l’hilarité des spectateurs et vient, rétrospectivement, appuyer aujourd’hui
+						l’argumentaire
+						des défenseurs du Web3 : ne passez pas à côté, où vous serez les David Letterman des années
+						2020.
+						Parce qu’il s’inscrit dans une époque tissée de désillusions, ce FOMO (pour Fear of Missing Out,
+						la
+						peur de rater quelque chose) constitue ainsi l’un des principaux moteurs du succès du Web3 dans
+						les
+						discours… et dans les portefeuilles. Il suffit pour cela de regarder les investissements
+						colossaux
+						réalisés par certaines entreprises dans le domaine, à l’image du cabinet Andreessen Horowitz,
+						aussi
+						connu sous le nom de a16z, qui a déjà investi 3 milliards de dollars (2,75 milliards d’euros)
+						dans
+						des start-up se réclamant du Web3.
+
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card_image">
+					<img src="images/image4.jpeg" alt="">
+				</div>
+				<div class="card_body">
+					<div class="card_title">
+						Pourquoi le Web3 fait-il débat ?
+					</div>
+					<div class="card_description">
+						Pour ceux qui s’y investissent, c’est une évidence : l’écosystème d’Internet s’apprête à être
+						profondément bouleversé. Exit les sites intermédiaires que les internautes sont obligés
+						d’utiliser
+						et de payer, soit avec de l’argent, soit avec leurs données. Ici, les internautes récupéreraient
+						le
+						pouvoir.
+						Dans une interview au média spécialisé The Verge, Chris Dixon cite par exemple des start-up
+						comme
+						Royal ou Sound.xyz qui, grâce aux NFT, permettraient, selon lui, aux artistes d’être mieux
+						rémunérés
+						pour leurs créations. Certes, créer un NFT a un coût, mais une fois en ligne, pour peu que ce
+						dernier ait du succès, il pourrait en théorie permettre à un artiste de recevoir directement de
+						l’argent de ses fans, sans être ponctionné par les grandes plates-formes de streaming, comme
+						Spotify, dont le système de rémunération est régulièrement critiqué.
+						Mais les critiques sont légion. Même le milliardaire Elon Musk – l’homme qui a pourtant envoyé
+						une
+						voiture électrique dans l’espace, propulsé en quelques tweets une cryptomonnaie à l’effigie d’un
+						chien au firmament et promis des trains atteignant 1 200 km/h – estime que le Web3 relève «
+						davantage du marketing que de la réalité ».
+						Marketing, car certains observateurs font remarquer que bon nombre d’acteurs impliqués dans le
+						Web3
+						sont les mêmes que ceux qui ont contribué à bâtir l’Internet actuel, pourtant décrié. A
+						commencer
+						par Marc Andreeseen, cofondateur d’Andreeseen Horowitz, qui a, par le passé, investi dans des
+						entreprises comme Facebook, Instagram, Pinterest ou encore Twitter. S’impliquer autant dans le
+						Web3
+						serait, pour eux, surtout une manière de résoudre une certaine crise d’identité et de continuer
+						à se
+						montrer innovant.
+						A cela s’ajoute le fait que l’idéal décentralisé au cœur du Web3 reste, par certains aspects, en
+						trompe-l’œil, puisque des projets estampillés comme tels appartiennent parfois aux mêmes acteurs
+						–
+						c’est, par exemple, la même entreprise, Yuga Labs, qui détient les trois collections de NFT les
+						plus
+						courues dans le même monde – et obligent, par ailleurs, les utilisateurs à recourir à des
+						services
+						ou à des plates-formes uniques : pour les NFT par exemple, on constate que la plate-forme
+						OpenSea
+						concentre déjà 97 % des parts de marché.
+						Une forme de domination inévitable si les technologies issues du Web3, comme les NFT, entendent
+						devenir un jour véritablement grand public, à en croire le site spécialisé Protocol. Les
+						utilisateurs lambda auront comme exigence d’avoir des garanties de protection avant d’investir –
+						OpenSea est, par exemple, intervenu récemment pour « geler » des NFT volés, se retrouvant
+						confrontée
+						à des problématiques de modération on ne peut plus classiques – ainsi que des facilités
+						techniques
+						d’utilisation.
+						C’est d’ailleurs une critique régulièrement émise concernant les blockchains, les cryptomonnaies
+						et
+						le Web3 en général : comprendre leur fonctionnement et apprendre à s’en servir n’est aujourd’hui
+						pas
+						à la portée de tous. « Les technologies comme Ethereum ont été construites avec beaucoup des
+						mêmes
+						pièges implicites que le Web1, remarque ainsi Moxie Marlinspike, le fondateur de la messagerie
+						cryptée Signal. Pour rendre ces technologies accessibles, l’espace est en train de se consolider
+						autour… de plates-formes. »
+						Cette question de l’accessibilité et de la sécurité est d’autant plus brûlante que NFT,
+						cryptomonnaies et finance décentralisée ont donné lieu, en à peine quelques mois, à un nombre
+						astronomique d’abus et d’arnaques. Une troisième procédure judiciaire allant à l’encontre
+						d’OpenSea
+						après le vol de NFT, une vulnérabilité technique détectée dans la plate-forme Rarible ou encore
+						à un
+						projet promu par un influenceur comme une opération de charité qui, en fin de compte, s’est
+						révélé
+						être une arnaque… Sur un site intitulé « Web3 Is Going Great » (« le Web3 se passe super bien
+						»), la
+						développeuse Molly White liste ainsi, non sans une certaine ironie, les escroqueries,
+						spéculations
+						et autres entreprises de margoulins qui sont, pour l’heure, légion dans le monde du Web3.
+						Sans forcément parler de tentatives d’extorsion, force est de constater que la spéculation fait,
+						pour l’heure, partie intégrante de nombreux projets de cet univers : il s’agit bien souvent
+						d’être
+						parmi les premiers sur le coup, afin de se tailler la part du lion, ou alors de rendre payantes
+						des
+						choses qui, jusqu’ici, ne l’étaient pas. Une financiarisation du Web, finalement, assez éloignée
+						de
+						l’idéal égalitariste de l’Internet des débuts, que le Web3 prétend pourtant ressusciter.
+						Ce qui fait dire au musicien Brian Eno, qui a toujours montré son intérêt pour les arts
+						numériques,
+						dans un entretien à The Syllabus : « Les NFT me semblent juste être une manière pour les
+						artistes
+						d’avoir leur propre petit bout de capitalisme mondialisé, notre propre petite version mignonne
+						de la
+						financiarisation. C’est super, maintenant, les artistes peuvent aussi devenir des petits cons de
+						capitalistes. »
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<!--contact-->
+	<a name="contact"></a>
+	<div class="contact">
 		<h1><span>CON</span>TACT</h1>
 		<p>Vous aurez ici toutes les informations pour me contacter</p>
-		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20951.766911353483!2d2.2333896342666013!3d48.97307902511536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6665193fc35fd%3A0x40b82c3688b2d50!2s95110%20Sannois!5e0!3m2!1sfr!2sfr!4v1646838411702!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+		<iframe
+			src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20951.766911353483!2d2.2333896342666013!3d48.97307902511536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6665193fc35fd%3A0x40b82c3688b2d50!2s95110%20Sannois!5e0!3m2!1sfr!2sfr!4v1646838411702!5m2!1sfr!2sfr"
+			width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 		<ul>
 			<div class="coordonnees">
-			<li><i class="fa-solid fa-at"></i>beni.mambiguerin@gmail.com</li>
-			<li><i class="fa-solid fa-mobile-screen-button"></i>0646256920</li>
-			<li><i class="fa-solid fa-location-dot"></i>Sannois</li>
+				<li><i class="fa-solid fa-at"></i>beni.mambiguerin@gmail.com</li>
+				<li><i class="fa-solid fa-mobile-screen-button"></i>0646256920</li>
+				<li><i class="fa-solid fa-location-dot"></i>Sannois</li>
 			</div>
 		</ul>
+	</div>
+</body>
+<footer>
+	<div id="footer">
+		<div class="formation">
+			<div class="formation_title">Ma Formation</div>
+			<div class="formation_nom">INGETIS PARIS</div> 
+			<div class="formation_adresse">62 bis Rue Gay-Lussac, 75005 Paris</div>
 		</div>
-	</body>
-	<footer>
-				<div id="footer">
-					<div class="formation">
-						<h2 style="text-align: center;">Ma Formation</h2>
-						<p>INGETIS PARIS<br /> 62 bis Rue Gay-Lussac, 75005 Paris</p>
-					</div>
-					<div class="reseaux_sociaux">
-						<h2 style="text-align: center;">Mes réseaux sociaux</h2>
-							<ul>
-								<div class="reseaux">
-								<a href="https://www.facebook.com/"><li class="fb"></li></a>
-								<a href="https://twitter.com/?lang=fr"><li class="twitter"></li></a>
-								<a href="https://www.instagram.com/?hl=fr"><li class="insta"></li></a>
-								<a href="https://www.youtube.com/?hl=FR"><li class="yt"></li></a>
-								</div>
-							</ul>
-					</div>
-				</div>
+		<a href="https://github.com/benimambiguerin"><div class="button">
+			<div class="button_body">
+				<div class="button_title">Github</div>
+				<div class="button_link">https://github.com/benimambiguerin</div>
+			</div>
+			<div>
+				<div class="button_image"><img src="images/githublogo.png" alt=""></div>
+			</div>
+		
+		</div></a>
+	</div>
 </footer>
-			
+<div class="droits">© 2022 Portfolio Mambi-Guérin Béni Tous droits réservés</div>
+
 </html>
